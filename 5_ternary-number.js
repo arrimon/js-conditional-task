@@ -26,3 +26,8 @@ else {
     result = num1 + num2;
     console.log(`result is ${result}`);
 }
+
+// using ternary operator
+let resultTernary = (num1 > num2) ? (num1 * 2) : (num1 + num2);
+
+console.log(`result using ternary operator is ${resultTernary}`);
